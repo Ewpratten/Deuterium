@@ -1,5 +1,5 @@
 # Deuterium
-The official bootloader for the Dirobium emulator
+The official bootloader for the Dirobium emulator (pronounced due-ter-yum)
 
 ## Requirements
 Deuterium requires the [Dirobium emulator](https://github.com/Ewpratten/Dirobium) to be installed, and an emulation envitonment to be set up. Deuterium also requires a graphics driver to be installed in device slot. Graphite is the recommended driver for Deuterium. Its installation instructions can be found at the [Graphite documentation](https://github.com/Ewpratten/Graphite).
