@@ -1,2 +1,2 @@
-# deuterium-kernel
-deuterium, a simple kernal
+# Deuterium
+The official bootloader for the Dirobium emulator
