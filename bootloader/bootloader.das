@@ -12,10 +12,12 @@ call 1
 # Set cursor to 1,1
 mov 1 e4
 
+
 # print out "welcome text"
 mov 4 e3
 mov 1 e5
 call 1
+# jmpb 37
 
 mov 5 e3
 mov 2 e5
@@ -157,13 +159,25 @@ mov 14 e3
 mov 15 e5
 call 1
 
+mov 4 e4
+mov 1 e5
+movs [26,using_legacy_graphics_mode] e3
+call 1
+
+mov 5 e4
+mov 1 e5
+movs [21,rom_mode_set_to:_load] e3
+call 1
+
+mov 0 e3
+
 # End title
 
 load rom
 
 # press enter to load rom
 
-mov 4 e4
+mov 10 e4
 call 1
 
 mov 16 e3
@@ -262,7 +276,7 @@ call 1
 paus 0
 
 # rom loaded
-mov 5 e4
+mov 11 e4
 
 mov 18 e3
 mov 1 e5
@@ -303,6 +317,9 @@ call 1
 mov 4 e3
 mov 10 e5
 call 1
+
+mov 0 e3
+
 
 mov 0 e0
 mov 0 e3
